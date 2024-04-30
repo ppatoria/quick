@@ -35,9 +35,9 @@ add_executable( tests
 set(Boost_USE_STATIC_LIBS OFF)
 set(Boost_USE_MULTITHREADED ON)
 set(Boost_USE_STATIC_RUNTIME OFF)
-
+  
 target_include_directories(tests PUBLIC
-  ${CMAKE_SOURCE_DIR}/../../
+  ${CMAKE_CURRRENT_SOURCE_DIR}
   ${Boost_INCLUDE_DIR}
   )
 

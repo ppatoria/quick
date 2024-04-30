@@ -1,6 +1,6 @@
 #pragma once
 
-#include <quick/memory/align.hpp>
+#include "memory/align.hpp"
 
 #if defined(_MSC_VER)
 #include <intrin.h>
